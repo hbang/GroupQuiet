@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = GroupQuiet;
+		cell = PSLinkCell;
+		detail = HBCVListController;
+		icon = icon.png;
+		isController = 1;
+		label = GroupQuiet;
+	};
+}

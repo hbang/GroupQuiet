@@ -1,5 +1,7 @@
 #import <BulletinBoard/BBBulletin.h>
 
+#define GET_BOOL(key, default) ([prefs objectForKey:key] ? ((NSNumber *)[prefs objectForKey:key]).boolValue : default)
+
 BOOL highlightsOnly;
 BOOL hideInNC;
 NSArray *highlights;

@@ -41,6 +41,8 @@
 		<dict>
 			<key>cell</key>
 			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>HBCVEditTextCell</string>
 			<key>default</key>
 			<string></string>
 			<key>defaults</key>

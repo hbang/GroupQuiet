@@ -3,7 +3,7 @@ Name: GroupQuiet
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>> 1.0)
 Conflicts: ws.hbang.converse
 Replaces: ws.hbang.converse
-Version: 1.0~beta1
+Version: 1.0~beta2
 Architecture: iphoneos-arm
 Description: Intelligent iMessage group chat muting
 Maintainer: HASHBANG Productions <support@hbang.ws>

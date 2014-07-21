@@ -19,8 +19,9 @@
 - (void)loadView {
 	[super loadView];
 
-	// iOS 7, unsure if this supports iOS 6 and below (might just be self.view)
-	[self table].keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
+	if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
+		[self table].keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
+	}
 }
 
 @end
